@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+
+<body class="">
+    <header class="">
+        <div class="top-header">
+            <div class="container d-flex justify-content-between ">
+                <h1 class="home-title fs-1  p-0 m-0 text-light">
+                    <a href="./index.html " class="text-white text-decoration-none">
+                        <img src="./assets/img/logo_white-7.png" alt="logo">
+                    </a>
+                </h1>
+                <nav class=" d-lg-flex d-none d-flex align-items-center gap-5">
+                    <ul class="d-flex p-0 gap-3 align-items-center justify-content-between m-0">
+                        <li class="">
+                            <a class="nav-link active fw-bold text-white fs-6" href="">
+                                Home
+                                <i class="bi bi-chevron-right fs-6"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link  fw-bolder text-white fs-6" href="">
+                                About us
+                                <i class="bi bi-chevron-right fs-6"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link fw-bolder text-white fs-6" href=".">
+                                products
+                                <i class="bi bi-chevron-right fs-6"></i>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a class="nav-link fw-bolder text-white fs-6" href="">
+                                Blog
+                                <i class="bi bi-chevron-right fs-6"></i>
+                            </a>
+
+                        </li>
+
+                        <li>
+                            <a class="nav-link fw-bolder text-white fs-6" href="">
+                                Gallary
+                                <i class="bi bi-chevron-right fs-6"></i>
+                            </a>
+
+                        </li>
+
+                        <li>
+                            <a class="nav-link fw-bolder text-white fs-6" href="">
+                                Contacts
+                                <i class="icons bi bi-chevron-right"></i>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a class="nav-link fw-bolder text-white fs-6 " href="">
+                                Pages
+                                <i class="bi bi-chevron-right fs-6"></i>
+                            </a>
+
+                        </li>
+
+                    </ul>
+                    <div class=" d-flex justify-content-between">
+                        <a href="">
+                            <div class="d-flex align-items-center">
+                                <span
+                                    class="text-white fs-6 text-decoration-none postion-absulote count rounded-circle">0</span>
+                                <i class="bi bi-cart-fill text-white"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <li>
+                        <i class="bi bi-search text-white fw-bolder align-items-center fs-5"></i>
+                    </li>
+                </nav>
+                <nav id="navmenu" class="navmenu ">
+                    <ul>
+                        <li class=""><a href="" class="fs-3 fw-bolder text-white p-3 text-decoration-none">Home</a></li>
+                        <li><a href="" class="active fs-4 fw-bolder text-white p-3 text-decoration-none">About us</a>
+                        </li>
+                        <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">products</a></li>
+                        <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">Blog</a></li>
+                        <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">Gallary</a></li>
+                        <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">contacts</a></li>
+                        <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">Pages</a></li>
+
+                    </ul>
+                    <i class="mobile-nav-toggle d-lg-none bi bi-list"></i>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="bg-img pt-60 d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class=" ">
+                <img src="./assets/img/home-2.png" alt="" width="100%">
+            </div>
+            <div class="d-flex align-items-center btn1 justify-content-center ">
+                <a href="./index.html" class="  fw-medium fs-5  py-2 px-4">
+                    View Prodoct
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="position-relative">
+        <div class="position-absolute long-img">
+            <img src="./assets/img/coffee_cut_long.png" alt="" class="" width="100%" height="100%">
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="mt-5 bg-img2">
+                        <h5 class="subheader fw-bold fs-4">Who we are</h5>
+                        <h2 class="heading fw-bold mb-0">About market</h2>
+                        <p class="fs-5 mt-2 fw-normal">Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus egetmagna aliquet ultricies. Praesent gravida hendrerit ex, nec eleifend sem convallis vitae.</p>
+                    </div>
+                </div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.mobile-nav-toggle').on('click', function () {
+                $('body').toggleClass('mobile-nav-active');
+                $(this).toggleClass('bi-list bi-x')
+            })
+        })
+    </script>
+</body>
+
+</html>
