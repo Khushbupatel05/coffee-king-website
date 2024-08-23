@@ -135,36 +135,76 @@ header {
 }
 
 body {
-  position: relative;
-  height: 100%;
+    position: relative;
+    height: 100%;
 }
 
 body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 .swiper {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.price-tag-1 {
+    color: #ababab;
+}
+
+.price-tag-2 {
+    color: #c0aa83;
+}
+
+.btn-card {
+    background-color: #c0aa83;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.btn-card:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.btn-view {
+    background-color: none;
+    color: #c0aa83;
+}
+
+.btn-view:hover {
+    color: #000;
+    background-color: #fff;
+}
+.sale-title{
+   font-size: 60PX;
+}
+.sale-content{
+    font-family: "Kanit", sans-serif;
+    color: #3f3f3f;
+}
+.sale-title-2{
+    color: #c0aa83;
 }
