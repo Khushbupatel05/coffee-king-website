@@ -339,14 +339,31 @@ body {
 }
 .footer-map{
     background-image: url(../img/footer_map.png);
-    background-color: #000000d2;
+    background-color: #242424;
     padding: 90px 0 130px;
     padding-top: 170px;
     overflow: hidden;
     position: relative;
+    z-index: -1;
 }
 .footer-content{
     position: absolute;
-    color: #808080;
-    z-index: 2;
+    color: #676767;
+   
+}
+.btn-purches{
+    background-color: #c0aa83;
+    color: #000;
+    cursor: pointer;
+    
+}
+.btn-purches:hover{
+    background-color: #fff;
+    color: #000;
+}
+.explor{
+   color: #c0aa83;
+}
+.f-icon{
+    color: #c0aa83;
 }
