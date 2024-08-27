@@ -272,13 +272,13 @@ body {
     height: 100%;
 }
 
-.swiper-slide-2 {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #000;
 }
 
-.swiper-slide-2 img {
+.swiper-slide img {
     width: auto;
     height: auto;
     max-width: 100%;
@@ -291,16 +291,62 @@ body {
     left: 50%;
     top: 50%;
 }
-.discount-img{
+
+.discount-img {
     background-image: url(../img/discount-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
 }
-.dicount-title{
+
+.dicount-title {
     font-size: 50px;
 }
-.bg-color{
+
+.bg-color {
     background-color: #f6f6f6;
+}
+
+.blog-title {
+    color: #c0aa83;
+}
+
+.blog-info {
+    background-color: #f6f6f6;
+}
+
+.date-day {
+    color: #c0aa83;
+}
+
+.subscribe {
+    background-color: #c0aa83;
+    margin-bottom: -75px;
+}
+
+.btn-input {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-input:hover {
+    background-color: transparent;
+}
+.sec-icon{
+    background-color: #d3c4a8;
+}
+.footer-map{
+    background-image: url(../img/footer_map.png);
+    background-color: #000000d2;
+    padding: 90px 0 130px;
+    padding-top: 170px;
+    overflow: hidden;
+    position: relative;
+}
+.footer-content{
+    position: absolute;
+    color: #808080;
+    z-index: 2;
 }
