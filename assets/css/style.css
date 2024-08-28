@@ -13,7 +13,6 @@
 }
 
 header {
-    position: absolute;
     width: 100%;
 }
 
@@ -157,9 +156,7 @@ body {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
 
 .swiper-slide img {
@@ -275,22 +272,10 @@ body {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #000;
+    background: #fff;
 }
 
-.swiper-slide img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
+
 
 .discount-img {
     background-image: url(../img/discount-bg.png);
@@ -366,4 +351,55 @@ body {
 }
 .f-icon{
     color: #c0aa83;
+}
+.contact-section{
+    background-image: url(../img/inner_parallax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact-title{
+    font-size: 50px
+}
+.contact-icon{
+    font-size: 13px;
+}
+.contact{
+    color: #c0aa83;
+}
+.fe-icon{
+    background-color: #4e71a8;
+    width: 40px;
+    height: 40px;
+}
+.t-icon{
+    background-color: #1cb7eb;
+    width: 40px;
+    height: 40px;
+} 
+.y-icon{
+    background-color:#ca3737;
+    width: 40px;
+    height: 40px; 
+}
+.in-icon{
+    background-color:#444444;
+    width: 40px;
+    height: 40px; 
+}
+.contact-bg{
+    background-image: url(../img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact-border{
+    border: 8px solid #fff;
+}
+.bg-color{
+    background-color: #f6f6f6;
+}
+.submit-button{
+    background-color: #c0aa83;
+    color: #fff;
 }

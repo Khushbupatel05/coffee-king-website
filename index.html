@@ -14,7 +14,7 @@
 </head>
 
 <body class="">
-    <header class="">
+    <header class="position-absolute">
         <div class="top-header">
             <div class="container d-flex justify-content-between ">
                 <h1 class="home-title fs-1  p-0 m-0 text-light">
@@ -31,7 +31,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="nav-link  fw-bolder text-white fs-6" href="">
+                            <a class="nav-link  fw-bolder text-white fs-6" href="faq.html">
                                 About us
                                 <i class="bi bi-chevron-right fs-6"></i>
                             </a>
@@ -61,7 +61,7 @@
                         </li>
 
                         <li>
-                            <a class="nav-link fw-bolder text-white fs-6" href="">
+                            <a class="nav-link fw-bolder text-white fs-6" href="./contact.html">
                                 Contacts
                                 <i class="icons bi bi-chevron-right"></i>
                             </a>
@@ -92,12 +92,14 @@
                 <nav id="navmenu" class="navmenu ">
                     <ul>
                         <li class=""><a href="" class="fs-3 fw-bolder text-white p-3 text-decoration-none">Home</a></li>
-                        <li><a href="" class="active fs-4 fw-bolder text-white p-3 text-decoration-none">About us</a>
+                        <li><a href="faq.html" class="active fs-4 fw-bolder text-white p-3 text-decoration-none">About
+                                us</a>
                         </li>
                         <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">products</a></li>
                         <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">Blog</a></li>
                         <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">Gallary</a></li>
-                        <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">contacts</a></li>
+                        <li><a href="contact.html" class="fs-4 fw-bold text-white p-3 text-decoration-none">contacts</a>
+                        </li>
                         <li><a href="" class="fs-4 fw-bold text-white p-3 text-decoration-none">Pages</a></li>
 
                     </ul>
@@ -198,200 +200,209 @@
                 <h5 class="recent-subheader fw-bold fs-4 d-flex text-center justify-content-center">Chooes your coffee
                 </h5>
                 <h2 class="recent-heading text-white d-flex justify-content-center fw-bolder"> Recent products</h2>
-                <p class="fw-bold position-absolute top-0 header-text text-white">products</p>
+                <p class="fw-bold position-absolute z-n1 top-0 header-text text-white">products</p>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-center">
                         <ul class="d-flex gap-4 text-white fs-6 fw-bolder mt-4">
                             <li class="project filter-button-group" data-filter=".coffee">Coffee</li>
-                            <li class="project filter-button-group" data-filter=".admin-panel">Green coffee</li>
-                            <li class="project filter-button-group" data-filter=".Roasted coffee">Roasted coffee </li>
+                            <li class="project filter-button-group" data-filter=".green-coffee">Green coffee</li>
+                            <li class="project filter-button-group" data-filter=".Roasted-coffee">Roasted coffee </li>
                             <li class="project filter-button-group" data-filter=".Italian">Italian</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="p-4 pb-5 mb-3">
-                                <div>
-                                    <span>SALE</span>
-                                    <img src="./assets/img/coffee_item1-300x300.jpg" alt="">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold fs-5">MyCoffeeShop Cup</h5>
-                                    <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum
-                                        quis, eleifend vitae velit.</p>
-                                    <div class="d-flex justify-content-center gap-2">
-                                        <h4 class="price-tag-1 text-decoration-line-through fw-normal">
-                                            $23.00
-                                        </h4>
-                                        <h4 class="fw-bold price-tag-2">$19.00</h4>
-                                    </div>
-                                    <a href="">
-                                        <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
-                                            <i class="bi bi-cart-fill me-1"></i>
-                                            read more
-                                        </button>
+            <div class="row grid">
 
-                                    </a>
-                                </div>
-                            </div>
+                <div class="col-lg-4 grid-item coffee">
+
+                    <div class="p-4 pb-5 mb-3 bg-white">
+                        <div>
+                            <span>SALE</span>
+                            <img src="./assets/img/coffee_item1-300x300.jpg" alt="">
                         </div>
-                        <div class="swiper-slide">
-                            <div class="p-4 pb-5 mb-3">
-                                <div>
-                                    <span>SALE</span>
-                                    <img src="./assets/img/coffee_item3-600x600.jpg" alt="">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold fs-5">Ephiopian Aroma</h5>
-                                    <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum
-                                        quis, eleifend vitae velit.</p>
-                                    <div class="d-flex justify-content-center gap-2">
-
-                                        <h4 class="fw-bold price-tag-2">$9.00-$19.99</h4>
-                                    </div>
-                                    <a href="">
-                                        <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
-                                            <i class="bi bi-cart-fill me-1"></i>
-                                            select option
-                                        </button>
-
-                                    </a>
-                                </div>
+                        <div>
+                            <h5 class="fw-bold fs-5">MyCoffeeShop Cup</h5>
+                            <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+                                bibendum
+                                quis, eleifend vitae velit.</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <h4 class="price-tag-1 text-decoration-line-through fw-normal">
+                                    $23.00
+                                </h4>
+                                <h4 class="fw-bold price-tag-2">$19.00</h4>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="p-4 pb-5 mb-3">
-                                <div>
-                                    <span>SALE</span>
-                                    <img src="./assets/img/coffee_item2-600x600.jpg" alt="">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold fs-5">Green Africana</h5>
-                                    <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum
-                                        quis, eleifend vitae velit.</p>
-                                    <div class="d-flex justify-content-center gap-2">
-                                        <h4 class="fw-bold price-tag-2">$9.00</h4>
-                                    </div>
-                                    <a href="">
-                                        <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
-                                            <i class="bi bi-cart-fill me-1"></i>
-                                            add to cart
-                                        </button>
+                            <a href="">
+                                <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
+                                    <i class="bi bi-cart-fill me-1"></i>
+                                    read more
+                                </button>
 
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="p-4 pb-5 mb-3">
-                                <div>
-                                    <span>SALE</span>
-                                    <img src="./assets/img/coffee_item4.jpg" alt="">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold fs-5">American Black Coffee</h5>
-                                    <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum
-                                        quis, eleifend vitae velit.</p>
-                                    <div class="d-flex justify-content-center gap-2">
-                                        <h4 class="fw-bold price-tag-2">$14.00</h4>
-                                    </div>
-                                    <a href="">
-                                        <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
-                                            <i class="bi bi-cart-fill me-1"></i>
-                                            add to cart
-                                        </button>
-
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="p-4 pb-5 mb-3">
-                                <div>
-                                    <span>SALE</span>
-                                    <img src="./assets/img/coffee_item9-300x300.jpg" alt="">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold fs-5">Ground coffee</h5>
-                                    <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum
-                                        quis, eleifend vitae velit.</p>
-                                    <div class="d-flex justify-content-center gap-2">
-                                        <h4 class="price-tag-1 text-decoration-line-through fw-normal">
-                                            $23.00
-                                        </h4>
-                                        <h4 class="fw-bold price-tag-2">$13.44</h4>
-                                    </div>
-                                    <a href="">
-                                        <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
-                                            <i class="bi bi-cart-fill me-1"></i>
-                                            add to cart
-                                        </button>
-
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="p-4 pb-5 mb-3">
-                                <div>
-                                    <span>SALE</span>
-                                    <img src="./assets/img/coffee_item8-.jpg" alt="">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold fs-5">Coffee bean</h5>
-                                    <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum
-                                        quis, eleifend vitae velit.</p>
-                                    <div class="d-flex justify-content-center gap-2">
-                                        <h4 class="price-tag-1 text-decoration-line-through fw-normal">
-                                            $23.00
-                                        </h4>
-                                        <h4 class="fw-bold price-tag-2">$24.66</h4>
-                                    </div>
-                                    <a href="">
-                                        <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
-                                            <i class="bi bi-cart-fill me-1"></i>
-                                            add to cart
-                                        </button>
-
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="p-4 pb-5 mb-3">
-                                <div>
-                                    <span>SALE</span>
-                                    <img src="./assets/img/coffee_item7.jpg" alt="">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold fs-5">Accessory</h5>
-                                    <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis bibendum
-                                        quis, eleifend vitae velit.</p>
-                                    <div class="d-flex justify-content-center gap-2">
-                                        <h4 class="price-tag-1 text-decoration-line-through fw-normal">
-                                            $23.00
-                                        </h4>
-                                        <h4 class="fw-bold price-tag-2">$4.66</h4>
-                                    </div>
-                                    <a href="">
-                                        <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
-                                            <i class="bi bi-cart-fill me-1"></i>
-                                            add to cart
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="swiper-button-next">
+
+                </div>
+                <div class="col-lg-4 grid-item Roasted-coffee">
+
+                    <div class="p-4 pb-5 mb-3 bg-white">
+                        <div>
+                            <span>SALE</span>
+                            <img src="./assets/img/coffee_item3-600x600.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold fs-5">Ephiopian Aroma</h5>
+                            <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+                                bibendum
+                                quis, eleifend vitae velit.</p>
+                            <div class="d-flex justify-content-center gap-2">
+
+                                <h4 class="fw-bold price-tag-2">$9.00-$19.99</h4>
+                            </div>
+                            <a href="">
+                                <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
+                                    <i class="bi bi-cart-fill me-1"></i>
+                                    select option
+                                </button>
+
+                            </a>
+                        </div>
+
                     </div>
-                    <div class="swiper-button-prev">
+                </div>
+                <div class=" col-lg-4 grid-item coffee">
+
+                    <div class="p-4 pb-5 mb-3 bg-white">
+                        <div>
+                            <span>SALE</span>
+                            <img src="./assets/img/coffee_item2-600x600.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold fs-5">Green Africana</h5>
+                            <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+                                bibendum
+                                quis, eleifend vitae velit.</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <h4 class="fw-bold price-tag-2">$9.00</h4>
+                            </div>
+                            <a href="">
+                                <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
+                                    <i class="bi bi-cart-fill me-1"></i>
+                                    add to cart
+                                </button>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 grid-item green-coffee">
+                    <div class="p-4 pb-5 mb-3 bg-white">
+                        <div>
+                            <span>SALE</span>
+                            <img src="./assets/img/coffee_item4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold fs-5">American Black Coffee</h5>
+                            <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+                                bibendum
+                                quis, eleifend vitae velit.</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <h4 class="fw-bold price-tag-2">$14.00</h4>
+                            </div>
+                            <a href="">
+                                <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
+                                    <i class="bi bi-cart-fill me-1"></i>
+                                    add to cart
+                                </button>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 grid-item Roasted-coffee">
+                    <div class="p-4 pb-5 mb-3 bg-white">
+                        <div>
+                            <span>SALE</span>
+                            <img src="./assets/img/coffee_item9-300x300.jpg" class="img-fluid" alt="" >
+                        </div>
+                        <div>
+                            <h5 class="fw-bold fs-5">Ground coffee</h5>
+                            <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+                                bibendum
+                                quis, eleifend vitae velit.</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <h4 class="price-tag-1 text-decoration-line-through fw-normal">
+                                    $23.00
+                                </h4>
+                                <h4 class="fw-bold price-tag-2">$13.44</h4>
+                            </div>
+                            <a href="">
+                                <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
+                                    <i class="bi bi-cart-fill me-1"></i>
+                                    add to cart
+                                </button>
+
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 grid-item green-coffee">
+
+                    <div class="p-4 pb-5 mb-3 bg-white">
+                        <div>
+                            <span>SALE</span>
+                            <img src="./assets/img/coffee_item8-.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold fs-5">Coffee bean</h5>
+                            <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+                                bibendum
+                                quis, eleifend vitae velit.</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <h4 class="price-tag-1 text-decoration-line-through fw-normal">
+                                    $23.00
+                                </h4>
+                                <h4 class="fw-bold price-tag-2">$24.66</h4>
+                            </div>
+                            <a href="">
+                                <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
+                                    <i class="bi bi-cart-fill me-1"></i>
+                                    add to cart
+                                </button>
+
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" col-lg-4 grid-item Italian">
+                    <div class="p-4 pb-5 mb-3 bg-white ">
+                        <div>
+                            <span>SALE</span>
+                            <img src="./assets/img/coffee_item7.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold fs-5">Accessory</h5>
+                            <p class="fs-6">Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+                                bibendum
+                                quis, eleifend vitae velit.</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <h4 class="price-tag-1 text-decoration-line-through fw-normal">
+                                    $23.00
+                                </h4>
+                                <h4 class="fw-bold price-tag-2">$4.66</h4>
+                            </div>
+                            <a href="">
+                                <button class="btn-card fw-medium fs-5  py-2 px-4 border-0 fs-6">
+                                    <i class="bi bi-cart-fill me-1"></i>
+                                    add to cart
+                                </button>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -451,12 +462,12 @@
                                     </li>
                                     <li class="mt-2">
                                         <i class="ri-arrow-right-s-line "></i>
-                                        <strong class="text-dark">Usa</strong>
+                                        <strong class="text-dark">Argentina </strong>
                                         (67)
                                     </li>
                                     <li class="mt-2">
                                         <i class="ri-arrow-right-s-line "></i>
-                                        <strong class="text-dark">Mexico</strong>
+                                        <strong class="text-dark">Europe </strong>
                                         (10)
                                     </li>
                                 </ul>
@@ -467,17 +478,17 @@
                                 <ul class="p-0 mt-2">
                                     <li class="">
                                         <i class="ri-arrow-right-s-line "></i>
-                                        <strong class="text-dark">Canada</strong>
+                                        <strong class="text-dark">Russia</strong>
                                         (23)
                                     </li>
                                     <li class="mt-2">
                                         <i class="ri-arrow-right-s-line "></i>
-                                        <strong class="text-dark">Usa</strong>
+                                        <strong class="text-dark">Asia </strong>
                                         (67)
                                     </li>
                                     <li class="mt-2">
                                         <i class="ri-arrow-right-s-line "></i>
-                                        <strong class="text-dark">Mexico</strong>
+                                        <strong class="text-dark">Australia</strong>
                                         (10)
                                     </li>
                                 </ul>
@@ -549,49 +560,7 @@
                         <h2 class="header fs-1 fw-bold text-white d-flex justify-content-center">Testimonials</h2>
                     </div>
                 </div>
-                <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-1.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-2.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-3.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-4.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-5.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-6.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-7.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-8.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://swiperjs.com/demos/images/nature-9.jpg" loading="lazy" />
-                            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
+
             </div>
     </section>
     <section class="py-5">
@@ -903,8 +872,10 @@
 
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script>
         $(document).ready(function () {
@@ -935,16 +906,20 @@
                 prevEl: ".swiper-button-prev",
             },
         });
-        var swiper = new Swiper(".mySwiper", {
-            lazy: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
+        $('.grid').isotope({
+            // options
+            itemSelector: '.grid-item',
+            layoutMode: 'fitRows',
+
+        });
+        var $grid = $('.grid').isotope({
+            // options
+        });
+        // filter items on button click
+        $('.filter-button-group').on('click', function () {
+            console.log('hellsdkn')
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
         });
 
 
